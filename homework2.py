@@ -1,11 +1,5 @@
-first_name = 'Python'
+first_name = "Python"
 tasks = 12
-result = 'tasks'/'time'
-time = 1.5
-print(first_name,
-      ': всего задач:',
-      tasks,
-      ', затрачено часов:',
-      time,
-      'среднее время выполнения:',
-      result)
+hours = 1.5
+time = hours / tasks
+print(f"Курс: {first_name}, всего задач: {tasks}, затрачено часов: {hours}, среднее время выполнения {time} часа.")
